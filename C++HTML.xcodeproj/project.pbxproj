@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92206BBA1966E40A00E91EF4 /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92206BB81966E40A00E91EF4 /* Renderer.cpp */; };
+		92206BBB1966E40A00E91EF4 /* Renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 92206BB91966E40A00E91EF4 /* Renderer.h */; };
+		92B1C5C6196AB686006FC8CA /* HtmlEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92B1C5C4196AB686006FC8CA /* HtmlEvent.cpp */; };
+		92B1C5C7196AB686006FC8CA /* HtmlEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 92B1C5C5196AB686006FC8CA /* HtmlEvent.h */; };
+		92C09F6C1964CC4C00759816 /* HtmlDocument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92C09F6A1964CC4C00759816 /* HtmlDocument.cpp */; };
+		92C09F6D1964CC4C00759816 /* HtmlDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C09F6B1964CC4C00759816 /* HtmlDocument.h */; };
+		92C09F701964CC8E00759816 /* CssStyleSheet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92C09F6E1964CC8E00759816 /* CssStyleSheet.cpp */; };
+		92C09F711964CC8E00759816 /* CssStyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C09F6F1964CC8E00759816 /* CssStyleSheet.h */; };
+		92CA9F5A196365B400DA5F0D /* HtmlNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92CA9F48196365B400DA5F0D /* HtmlNode.cpp */; };
+		92CA9F5B196365B400DA5F0D /* HtmlNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CA9F49196365B400DA5F0D /* HtmlNode.h */; };
+		92CA9F5C196365B400DA5F0D /* HtmlElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92CA9F4A196365B400DA5F0D /* HtmlElement.cpp */; };
+		92CA9F5D196365B400DA5F0D /* HtmlElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CA9F4B196365B400DA5F0D /* HtmlElement.h */; };
+		92CA9F5E196365B400DA5F0D /* HtmlText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92CA9F4C196365B400DA5F0D /* HtmlText.cpp */; };
+		92CA9F5F196365B400DA5F0D /* HtmlText.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CA9F4D196365B400DA5F0D /* HtmlText.h */; };
+		92CA9F60196365B400DA5F0D /* StringUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CA9F4E196365B400DA5F0D /* StringUtil.h */; };
+		92CA9F61196365B400DA5F0D /* StringUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92CA9F4F196365B400DA5F0D /* StringUtil.cpp */; };
+		92CA9F66196365B400DA5F0D /* CssStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92CA9F54196365B400DA5F0D /* CssStyle.cpp */; };
+		92CA9F67196365B400DA5F0D /* CssStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CA9F55196365B400DA5F0D /* CssStyle.h */; };
+		92CA9F68196365B400DA5F0D /* HtmlOpenGLRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92CA9F56196365B400DA5F0D /* HtmlOpenGLRenderer.cpp */; };
+		92CA9F69196365B400DA5F0D /* HtmlOpenGLRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CA9F57196365B400DA5F0D /* HtmlOpenGLRenderer.h */; };
+		92CA9F6A196365B400DA5F0D /* FontTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92CA9F58196365B400DA5F0D /* FontTools.cpp */; };
+		92CA9F6B196365B400DA5F0D /* FontTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CA9F59196365B400DA5F0D /* FontTools.h */; };
+		92CA9F6D196365D100DA5F0D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CA9F6C196365D100DA5F0D /* OpenGL.framework */; };
+		92CA9F71196365E300DA5F0D /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CA9F70196365E300DA5F0D /* libxml2.dylib */; };
+		92CA9F731963661500DA5F0D /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CA9F721963661500DA5F0D /* libfreetype.a */; };
+		92CA9F751963662900DA5F0D /* libharfbuzz.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CA9F741963662900DA5F0D /* libharfbuzz.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92206BB81966E40A00E91EF4 /* Renderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Renderer.cpp; sourceTree = "<group>"; };
+		92206BB91966E40A00E91EF4 /* Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		92B1C5C4196AB686006FC8CA /* HtmlEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HtmlEvent.cpp; sourceTree = "<group>"; };
+		92B1C5C5196AB686006FC8CA /* HtmlEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlEvent.h; sourceTree = "<group>"; };
+		92C09F6A1964CC4C00759816 /* HtmlDocument.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HtmlDocument.cpp; sourceTree = "<group>"; };
+		92C09F6B1964CC4C00759816 /* HtmlDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlDocument.h; sourceTree = "<group>"; };
+		92C09F6E1964CC8E00759816 /* CssStyleSheet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CssStyleSheet.cpp; sourceTree = "<group>"; };
+		92C09F6F1964CC8E00759816 /* CssStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CssStyleSheet.h; sourceTree = "<group>"; };
+		92CA9F411963659F00DA5F0D /* libC++HTML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libC++HTML.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CA9F48196365B400DA5F0D /* HtmlNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HtmlNode.cpp; sourceTree = "<group>"; };
+		92CA9F49196365B400DA5F0D /* HtmlNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlNode.h; sourceTree = "<group>"; };
+		92CA9F4A196365B400DA5F0D /* HtmlElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HtmlElement.cpp; sourceTree = "<group>"; };
+		92CA9F4B196365B400DA5F0D /* HtmlElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlElement.h; sourceTree = "<group>"; };
+		92CA9F4C196365B400DA5F0D /* HtmlText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HtmlText.cpp; sourceTree = "<group>"; };
+		92CA9F4D196365B400DA5F0D /* HtmlText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlText.h; sourceTree = "<group>"; };
+		92CA9F4E196365B400DA5F0D /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
+		92CA9F4F196365B400DA5F0D /* StringUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringUtil.cpp; sourceTree = "<group>"; };
+		92CA9F54196365B400DA5F0D /* CssStyle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CssStyle.cpp; sourceTree = "<group>"; };
+		92CA9F55196365B400DA5F0D /* CssStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CssStyle.h; sourceTree = "<group>"; };
+		92CA9F56196365B400DA5F0D /* HtmlOpenGLRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HtmlOpenGLRenderer.cpp; sourceTree = "<group>"; };
+		92CA9F57196365B400DA5F0D /* HtmlOpenGLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlOpenGLRenderer.h; sourceTree = "<group>"; };
+		92CA9F58196365B400DA5F0D /* FontTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FontTools.cpp; sourceTree = "<group>"; };
+		92CA9F59196365B400DA5F0D /* FontTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontTools.h; sourceTree = "<group>"; };
+		92CA9F6C196365D100DA5F0D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		92CA9F70196365E300DA5F0D /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		92CA9F721963661500DA5F0D /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = ../../../../opt/local/lib/libfreetype.a; sourceTree = "<group>"; };
+		92CA9F741963662900DA5F0D /* libharfbuzz.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libharfbuzz.0.dylib; path = ../../../../opt/local/lib/libharfbuzz.0.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92CA9F3E1963659F00DA5F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CA9F751963662900DA5F0D /* libharfbuzz.0.dylib in Frameworks */,
+				92CA9F731963661500DA5F0D /* libfreetype.a in Frameworks */,
+				92CA9F71196365E300DA5F0D /* libxml2.dylib in Frameworks */,
+				92CA9F6D196365D100DA5F0D /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92CA9F381963659F00DA5F0D = {
+			isa = PBXGroup;
+			children = (
+				92CA9F741963662900DA5F0D /* libharfbuzz.0.dylib */,
+				92CA9F721963661500DA5F0D /* libfreetype.a */,
+				92CA9F70196365E300DA5F0D /* libxml2.dylib */,
+				92CA9F6C196365D100DA5F0D /* OpenGL.framework */,
+				92C09F6A1964CC4C00759816 /* HtmlDocument.cpp */,
+				92C09F6B1964CC4C00759816 /* HtmlDocument.h */,
+				92CA9F48196365B400DA5F0D /* HtmlNode.cpp */,
+				92CA9F49196365B400DA5F0D /* HtmlNode.h */,
+				92CA9F4A196365B400DA5F0D /* HtmlElement.cpp */,
+				92CA9F4B196365B400DA5F0D /* HtmlElement.h */,
+				92CA9F4C196365B400DA5F0D /* HtmlText.cpp */,
+				92CA9F4D196365B400DA5F0D /* HtmlText.h */,
+				92B1C5C4196AB686006FC8CA /* HtmlEvent.cpp */,
+				92B1C5C5196AB686006FC8CA /* HtmlEvent.h */,
+				92C09F6E1964CC8E00759816 /* CssStyleSheet.cpp */,
+				92C09F6F1964CC8E00759816 /* CssStyleSheet.h */,
+				92CA9F54196365B400DA5F0D /* CssStyle.cpp */,
+				92CA9F55196365B400DA5F0D /* CssStyle.h */,
+				92CA9F4E196365B400DA5F0D /* StringUtil.h */,
+				92CA9F4F196365B400DA5F0D /* StringUtil.cpp */,
+				92206BB81966E40A00E91EF4 /* Renderer.cpp */,
+				92206BB91966E40A00E91EF4 /* Renderer.h */,
+				92CA9F56196365B400DA5F0D /* HtmlOpenGLRenderer.cpp */,
+				92CA9F57196365B400DA5F0D /* HtmlOpenGLRenderer.h */,
+				92CA9F58196365B400DA5F0D /* FontTools.cpp */,
+				92CA9F59196365B400DA5F0D /* FontTools.h */,
+				92CA9F421963659F00DA5F0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92CA9F421963659F00DA5F0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92CA9F411963659F00DA5F0D /* libC++HTML.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		92CA9F3F1963659F00DA5F0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CA9F5D196365B400DA5F0D /* HtmlElement.h in Headers */,
+				92CA9F67196365B400DA5F0D /* CssStyle.h in Headers */,
+				92CA9F6B196365B400DA5F0D /* FontTools.h in Headers */,
+				92206BBB1966E40A00E91EF4 /* Renderer.h in Headers */,
+				92CA9F69196365B400DA5F0D /* HtmlOpenGLRenderer.h in Headers */,
+				92CA9F5F196365B400DA5F0D /* HtmlText.h in Headers */,
+				92CA9F5B196365B400DA5F0D /* HtmlNode.h in Headers */,
+				92C09F6D1964CC4C00759816 /* HtmlDocument.h in Headers */,
+				92C09F711964CC8E00759816 /* CssStyleSheet.h in Headers */,
+				92CA9F60196365B400DA5F0D /* StringUtil.h in Headers */,
+				92B1C5C7196AB686006FC8CA /* HtmlEvent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		92CA9F401963659F00DA5F0D /* C++HTML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92CA9F451963659F00DA5F0D /* Build configuration list for PBXNativeTarget "C++HTML" */;
+			buildPhases = (
+				92CA9F3D1963659F00DA5F0D /* Sources */,
+				92CA9F3E1963659F00DA5F0D /* Frameworks */,
+				92CA9F3F1963659F00DA5F0D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C++HTML";
+			productName = "C++HTML";
+			productReference = 92CA9F411963659F00DA5F0D /* libC++HTML.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92CA9F391963659F00DA5F0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Denis Stadniczuk";
+			};
+			buildConfigurationList = 92CA9F3C1963659F00DA5F0D /* Build configuration list for PBXProject "C++HTML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92CA9F381963659F00DA5F0D;
+			productRefGroup = 92CA9F421963659F00DA5F0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92CA9F401963659F00DA5F0D /* C++HTML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92CA9F3D1963659F00DA5F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CA9F68196365B400DA5F0D /* HtmlOpenGLRenderer.cpp in Sources */,
+				92CA9F66196365B400DA5F0D /* CssStyle.cpp in Sources */,
+				92C09F6C1964CC4C00759816 /* HtmlDocument.cpp in Sources */,
+				92B1C5C6196AB686006FC8CA /* HtmlEvent.cpp in Sources */,
+				92CA9F6A196365B400DA5F0D /* FontTools.cpp in Sources */,
+				92CA9F61196365B400DA5F0D /* StringUtil.cpp in Sources */,
+				92CA9F5E196365B400DA5F0D /* HtmlText.cpp in Sources */,
+				92206BBA1966E40A00E91EF4 /* Renderer.cpp in Sources */,
+				92C09F701964CC8E00759816 /* CssStyleSheet.cpp in Sources */,
+				92CA9F5A196365B400DA5F0D /* HtmlNode.cpp in Sources */,
+				92CA9F5C196365B400DA5F0D /* HtmlElement.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		92CA9F431963659F00DA5F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		92CA9F441963659F00DA5F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		92CA9F461963659F00DA5F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+					/opt/local/include/freetype2,
+					/opt/local/include/harfbuzz,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92CA9F471963659F00DA5F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+					/opt/local/include/freetype2,
+					/opt/local/include/harfbuzz,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92CA9F3C1963659F00DA5F0D /* Build configuration list for PBXProject "C++HTML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CA9F431963659F00DA5F0D /* Debug */,
+				92CA9F441963659F00DA5F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92CA9F451963659F00DA5F0D /* Build configuration list for PBXNativeTarget "C++HTML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CA9F461963659F00DA5F0D /* Debug */,
+				92CA9F471963659F00DA5F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92CA9F391963659F00DA5F0D /* Project object */;
+}
